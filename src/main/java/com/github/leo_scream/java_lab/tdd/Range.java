@@ -69,7 +69,7 @@ public interface Range {
 
             @Override
             public String toString() {
-                return String.format("Range [%d; %d]", lowerBound(), upperBound());
+                return String.format("Range [%d, %d]", lowerBound(), upperBound());
             }
         };
     }
